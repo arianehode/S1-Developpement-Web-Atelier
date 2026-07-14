@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LocalStorage Version 2</title>
+
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body id="maPage" class="jour" onload="initialiser()">
+
+<div class="container">
+
+<h1>API LocalStorage - Version 2</h1>
+
+<p id="p1">
+
+Bienvenue ! Ce texte peut être remplacé et sera enregistré.
+
+</p>
+
+<div class="themes">
+
+<h2>Choisissez un thème</h2>
+
+<button onclick="appliquerTheme('jour')">Jour</button>
+
+<button onclick="appliquerTheme('nuit')">Nuit</button>
+
+<button onclick="appliquerTheme('bleu')">Bleu</button>
+
+<button onclick="appliquerTheme('vert')">Vert</button>
+
+<button onclick="appliquerTheme('rose')">Rose</button>
+
+<button onclick="appliquerTheme('orange')">Orange</button>
+
+</div>
+
+<hr>
+
+<h2>Modifier le paragraphe</h2>
+
+<input
+type="text"
+id="txtParag"
+placeholder="Saisissez votre texte ici">
+
+<br><br>
+
+<button onclick="enregistrerParagraphe()">
+
+Enregistrer le paragraphe
+
+</button>
+
+</div>
+
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
