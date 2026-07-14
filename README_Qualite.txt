@@ -303,6 +303,240 @@ Quelques améliorations possibles :
 * Ajouter une validation des données utilisateur.
 * Ajouter une interface plus complète.
 * Connecter l'application à une base de données.
+* Organisation d'un projet professionnel  
+* Utilisation de Git et GitHub  
+
+---
+
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
+=========================================================
+        MISE EN LIGNE DU PROJET SUR GITHUB
+=========================================================
+
+
+1. PRÉSENTATION
+---------------
+
+Le projet a été versionné avec Git puis publié sur GitHub afin
+de permettre son stockage en ligne, le suivi des modifications
+et son partage facilement.
+
+Les différentes étapes réalisées pour mettre le projet en ligne
+sont décrites ci-dessous.
+
+
+=========================================================
+2. INITIALISATION DU DÉPÔT GIT LOCAL
+=========================================================
+
+Le projet a été ouvert dans Visual Studio Code puis un dépôt
+Git local a été créé dans le dossier du projet.
+
+Commande utilisée :
+
+git init
+
+Cette commande permet de transformer le dossier du projet en
+dépôt Git afin de suivre les différentes modifications.
+
+
+=========================================================
+3. AJOUT DES FICHIERS DU PROJET
+=========================================================
+
+Tous les fichiers du projet ont été ajoutés au suivi Git avec
+la commande :
+
+git add .
+
+Cette commande ajoute tous les fichiers et dossiers présents
+dans le projet.
+
+La vérification a été réalisée avec :
+
+git status
+
+Cette commande permet de vérifier les fichiers qui seront
+enregistrés dans le prochain commit.
+
+
+=========================================================
+4. CRÉATION DU PREMIER COMMIT
+=========================================================
+
+Une première sauvegarde du projet a été créée avec :
+
+git commit -m "Initialisation du projet Developpement Web Atelier S1"
+
+Le commit permet d'enregistrer une version du projet dans
+l'historique Git.
+
+
+=========================================================
+5. CRÉATION DU DÉPÔT GITHUB
+=========================================================
+
+Un dépôt distant a été créé sur GitHub avec le nom :
+
+S1-Developpement-Web-Atelier
+
+
+Lien du repository :
+
+https://github.com/arianehode/S1-Developpement-Web-Atelier
+
+
+=========================================================
+6. CONFIGURATION DE LA BRANCHE PRINCIPALE
+=========================================================
+
+La branche principale du projet a été renommée en main avec :
+
+git branch -M main
+
+La branche main correspond à la branche principale utilisée
+par GitHub.
+
+
+=========================================================
+7. CONNEXION AVEC LE DÉPÔT GITHUB
+=========================================================
+
+Le projet local a été connecté au dépôt GitHub avec :
+
+git remote add origin
+https://github.com/arianehode/S1-Developpement-Web-Atelier.git
+
+Cette commande permet de créer le lien entre le projet local
+et le repository GitHub.
+
+
+=========================================================
+8. ENVOI DU PROJET SUR GITHUB
+=========================================================
+
+Le projet a été envoyé sur GitHub avec :
+
+git push -u origin main
+
+Cette commande permet de transférer les fichiers présents
+localement vers le dépôt GitHub.
+
+
+Après cette étape, le projet devient accessible en ligne.
+
+
+=========================================================
+9. AJOUT DES CAPTURES D'ÉCRAN
+=========================================================
+
+Pour améliorer la présentation du projet, un dossier images
+a été ajouté à la racine du projet.
+
+
+Structure :
+
+S1-Intermediaire-Ariane-HODE/
+
+|
+|-- README.md
+|
+|-- images/
+|   |
+|   |-- gridflex.png
+|   |-- localstorage-v1.png
+|   |-- localstorage-v2.png
+|
+|-- 01_GridFlex/
+|
+|-- 02_LocalStorage/
+
+
+Les captures d'écran des différentes interfaces sont placées
+dans ce dossier.
+
+
+=========================================================
+10. AFFICHAGE DES IMAGES DANS LE README
+=========================================================
+
+Les images sont ajoutées dans le README avec le chemin
+correspondant.
+
+
+Exemple :
+
+Interface GridFlex :
+
+images/gridflex.png
+
+
+LocalStorage Version 1 :
+
+images/localstorage-v1.png
+
+
+LocalStorage Version 2 :
+
+images/localstorage-v2.png
+
+
+GitHub affiche automatiquement les images dans la
+documentation du projet.
+
+
+=========================================================
+11. MISE À JOUR DU PROJET APRÈS MODIFICATION
+=========================================================
+
+Après l'ajout des images ou toute modification du projet,
+les changements sont envoyés avec les commandes suivantes :
+
+
+Ajouter les modifications :
+
+git add .
+
+
+Créer un nouveau commit :
+
+git commit -m "Description de la modification"
+
+
+Envoyer les changements sur GitHub :
+
+git push
+
+
+
+=========================================================
+RÉSULTAT FINAL
+=========================================================
+
+Le projet est maintenant :
+
+- Versionné avec Git
+- Hébergé sur GitHub
+- Accessible en ligne
+- Documenté avec un README complet
+- Illustré avec des captures d'écran
+
+
+Lien du projet :
+
+https://github.com/arianehode/S1-Developpement-Web-Atelier
+
+
+=========================================================
+FIN
+=========================================================
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+
 
 ---
 
@@ -317,6 +551,26 @@ Projet réalisé dans le cadre du cours :
 Année académique :
 
 **2025 - 2026**
+
+---
+
+
+# 🖥️ Aperçu du projet
+
+## Interface GridFlex
+
+![Interface GridFlex](images/gridflex.png)
+
+
+## LocalStorage Version 1
+
+![LocalStorage V1](images/localstorage-v1.png)
+
+
+## LocalStorage Version 2
+
+![LocalStorage V2](images/localstorage-v2.png)
+
 
 ---
 

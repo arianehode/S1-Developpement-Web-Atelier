@@ -291,6 +291,8 @@ Grâce à ce projet, les compétences suivantes ont été développées :
 ✅ Manipulation du DOM avec JavaScript
 ✅ Gestion des événements utilisateurs
 ✅ Utilisation du stockage local du navigateur
+✅ Organisation d'un projet professionnel  
+✅ Utilisation de Git et GitHub  
 
 ---
 
@@ -303,6 +305,219 @@ Quelques améliorations possibles :
 * Ajouter une validation des données utilisateur.
 * Ajouter une interface plus complète.
 * Connecter l'application à une base de données.
+
+---
+
+
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
+
+# 🚀 Mise en ligne du projet sur GitHub
+
+## 📌 Présentation
+
+Le projet a été versionné avec **Git** puis publié sur **GitHub** afin de permettre son stockage en ligne, le suivi des modifications et son partage facilement.
+
+Les différentes étapes réalisées pour mettre le projet en ligne sont présentées ci-dessous.
+
+---
+
+# 1. Initialisation du dépôt Git local
+
+Le projet a été ouvert dans Visual Studio Code puis un dépôt Git local a été créé dans le dossier du projet.
+
+Commande utilisée :
+
+```bash
+git init
+```
+
+Cette commande permet de transformer le dossier du projet en dépôt Git afin de suivre les modifications réalisées.
+
+---
+
+# 2. Ajout des fichiers du projet
+
+Tous les fichiers du projet ont été ajoutés au suivi Git avec la commande :
+
+```bash
+git add .
+```
+
+Cette commande ajoute l'ensemble des fichiers et dossiers du projet.
+
+La vérification a été effectuée avec :
+
+```bash
+git status
+```
+
+Cette commande permet de vérifier les fichiers prêts à être enregistrés.
+
+---
+
+# 3. Création du premier commit
+
+Une première version du projet a été enregistrée avec :
+
+```bash
+git commit -m "Initialisation du projet Developpement Web Atelier S1"
+```
+
+Le commit permet de sauvegarder une version du projet dans l'historique Git.
+
+---
+
+# 4. Création du dépôt GitHub
+
+Un dépôt distant a été créé sur GitHub avec le nom :
+
+```
+S1-Developpement-Web-Atelier
+```
+
+Lien du repository :
+
+```
+https://github.com/arianehode/S1-Developpement-Web-Atelier
+```
+
+---
+
+# 5. Configuration de la branche principale
+
+La branche principale du projet a été renommée en `main` avec la commande :
+
+```bash
+git branch -M main
+```
+
+Cette branche correspond à la branche principale utilisée sur GitHub.
+
+---
+
+# 6. Connexion du projet local avec GitHub
+
+Le dépôt local a été relié au repository GitHub grâce à :
+
+```bash
+git remote add origin https://github.com/arianehode/S1-Developpement-Web-Atelier.git
+```
+
+Cette commande permet d'établir la connexion entre le projet présent sur l'ordinateur et le dépôt GitHub.
+
+---
+
+# 7. Envoi du projet sur GitHub
+
+Le projet a été envoyé sur GitHub avec :
+
+```bash
+git push -u origin main
+```
+
+Cette commande permet de transférer les fichiers du dépôt local vers GitHub.
+
+Après cette étape, le projet devient accessible en ligne.
+
+---
+
+# 8. Ajout des captures d'écran dans le README
+
+Afin d'améliorer la présentation du projet, un dossier `images` a été ajouté à la racine du projet.
+
+Structure :
+
+```
+S1-Intermediaire-Ariane-HODE/
+
+├── README.md
+│
+├── images/
+│   ├── gridflex.png
+│   ├── localstorage-v1.png
+│   └── localstorage-v2.png
+│
+├── 01_GridFlex/
+│
+└── 02_LocalStorage/
+```
+
+Les captures d'écran des interfaces ont été placées dans ce dossier.
+
+---
+
+# 9. Affichage des images dans le README
+
+Les images sont affichées dans le README avec la syntaxe Markdown :
+
+```markdown
+![Description de l'image](chemin_de_l_image)
+```
+
+Exemple :
+
+```markdown
+## Interface GridFlex
+
+![Interface GridFlex](images/gridflex.png)
+
+## LocalStorage Version 1
+
+![LocalStorage V1](images/localstorage-v1.png)
+
+## LocalStorage Version 2
+
+![LocalStorage V2](images/localstorage-v2.png)
+```
+
+GitHub affiche automatiquement les images dans la documentation.
+
+---
+
+# 10. Mise à jour du dépôt après modification
+
+Après l'ajout des images ou toute modification du projet, les changements sont envoyés avec :
+
+Ajouter les fichiers :
+
+```bash
+git add .
+```
+
+Créer un nouveau commit :
+
+```bash
+git commit -m "Ajout des captures d'écran du projet"
+```
+
+Envoyer les modifications :
+
+```bash
+git push
+```
+
+---
+
+# ✅ Résultat final
+
+Le projet est maintenant :
+
+✅ Versionné avec Git  
+✅ Hébergé sur GitHub  
+✅ Accessible en ligne  
+✅ Documenté avec un README complet  
+✅ Illustré avec des captures d'écran  
+
+Lien du projet :
+
+```
+https://github.com/arianehode/S1-Developpement-Web-Atelier
+```
+-----------------------------------------------
+-----------------------------------------------
+-----------------------------------------------
 
 ---
 
@@ -319,6 +534,27 @@ Année académique :
 **2025 - 2026**
 
 ---
+
+
+# 🖥️ Aperçu du projet
+
+## Interface GridFlex
+
+![Interface GridFlex](images/gridflex.png)
+
+
+## LocalStorage Version 1
+
+![LocalStorage V1](images/localstorage-v1.png)
+
+
+## LocalStorage Version 2
+
+![LocalStorage V2](images/localstorage-v2.png)
+
+
+---
+
 
 # 📄 Licence
 
